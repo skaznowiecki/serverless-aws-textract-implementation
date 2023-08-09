@@ -16,7 +16,7 @@ This is serverless service that uses AWS Textract to extract text from images an
 
 # Architecture
 
-![Architecture OW](https://github.com/skaznowiecki/document-extract/blob/main/assets/architecture.png)
+![Architecture OW](https://github.com/skaznowiecki/document-extract/blob/master/assets/architecture.png)
 
 
 For this arquitecture we need to consider the following:
@@ -60,17 +60,17 @@ The configuration table is a DynamoDB table with the following structure:
 
 This is an example of the configuration table:
 
-![Configuration table](https://github.com/skaznowiecki/document-extract/blob/main/assets/configuration-table.png)
+![Configuration table](https://github.com/skaznowiecki/document-extract/blob/master/assets/configuration-table.png)
 
 
 This is an example of the input document:
 
-![Input document](https://github.com/skaznowiecki/document-extract/blob/main/assets/sample-invoice.png)
+![Input document](https://github.com/skaznowiecki/document-extract/blob/master/assets/sample-invoice.png)
 
 
 This is an example of the result:
 
-![Result](https://github.com/skaznowiecki/document-extract/blob/main/assets/result.png)
+![Result](https://github.com/skaznowiecki/document-extract/blob/master/assets/result.png)
 
 
 
